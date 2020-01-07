@@ -1,1 +1,1 @@
-{"ultrasonic_time_period": 5, "pump_controller_version": "0.1", "wifi_ssid": "change me", "wifi_password": "change me"}
+{"ultrasonic_time_period": 5, "pump_controller_version": "0.1", "wifi_ssid": "TiersaCasa", "wifi_password": "58240991","network":{"ip":"192.168.0.200", "network_mask":"255.255.255.0", "gateway_address":"192.168.0.1","dns":"192.168.0.1"}}
