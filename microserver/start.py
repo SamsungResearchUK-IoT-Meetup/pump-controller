@@ -26,7 +26,6 @@ import pyb
 import time
 from drivers.usonic.ultrasonic import Ultrasonic, MeasurementTimeout
 
-
 switch = pyb.Switch()
 #sensor = ultrasonic.Ultrasonic(pyb.Pin.board.X3, pyb.Pin.board.X4)
 sensor = Ultrasonic(pyb.Pin.board.X3, pyb.Pin.board.X4)

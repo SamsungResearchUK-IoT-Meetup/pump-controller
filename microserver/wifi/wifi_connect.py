@@ -57,7 +57,7 @@ class Wifi_manager():
         self._password = password
         self._retries = 3                               # How many retries we try and connect before giving up
         self._timer = None                              # The timer object which handles periodic retries
-        self._wifi = network.WLAN()                     # An instance of the network WLAN manager
+        self._wifi = network.WLAN(network.STA_IF)       # An instance of the network WLAN manager
         print("WiFi Manager bringing up wlan interface.")
         self._wifi.active(1)
         self._bound_check_connection = self.__check_connection      # We have to bind this attribute to the method call to get round issues of a callback
